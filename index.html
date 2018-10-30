@@ -8,35 +8,42 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container"></div>
-        <div class="row_logo_main">
-            <a href="http://" class="logo_link">
-            <img src="./images/Logo main.png" alt="">
-            </a>
+    <div class="header">
+        <div class="container">
+            <div class="header__headline">
+                <div class="logo">
+                    <a href="http://" class="logo_link">
+                    <img src="./images/Logo main.png" alt="">
+                    </a>
+                </div>
+                <div class="header_line">
+                    <img src="./images/shadow menu.png" alt="">
+                </div>
+                <nav class="menu">
+                    <ul class="menu_list">           
+                        <li class="menu_item"><a href="http://" class="menu_link menu_link--active">portfolio</a></li>
+                        <li class="menu_item"><a href="http://" class="menu_link">about me</a></li>
+                        <li class="menu_item"><a href="http://" class="menu_link">resume</a></li>
+                        <li class="menu_item"><a href="http://" class="menu_link">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav">
+                    <ul class="navbar">
+                        <li class="nav_item"><a href="http://">all</a></li>
+                        <li class="nav_item"><a href="http://">mobile apps</a></li>
+                        <li class="nav_item"><a href="http://">logos</a></li>
+                        <li class="nav_item"><a href="http://">photography</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div>
-            <ul class="nav_list">           
-                <li class="nav_item"><a href="http://" class="nav_link nav_link--active">portfolio</a></li>
-                <li class="nav_item"><a href="http://" class="nav_link">about me</a></li>
-                <li class="nav_item"><a href="http://" class="nav_link">resume</a></li>
-                <li class="nav_item"><a href="http://" class="nav_link">contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <img src="./images/shadow menu.png" alt="">
-        </div>
-        <div>
-            <ul class="navbar">
-                <li><a href="#">all</a></li>
-                <li><a href="#">mobile apps</a></li>
-                <li><a href="#">logos</a></li>
-                <li><a href="#">photography</a></li>
-            </ul>
-        </div>
-        <div class="columns">
+    </div>                
+    <div class="columns">
+        <div class="container">
             <div class="column_1">
                 <img src="./images/Layer 15_1.png" alt="">
                 <img src="./images/Layer 15_1.1.png.png" alt="">
@@ -62,18 +69,86 @@
                 <img src="./images/Layer 15_4.3.png.png" alt="">
             </div>
         </div>
-        <div class="rows">
-            <div class="column">
-                <a href="http://" class="logo__link">
-                <img src="./images/logo footer.png" alt="">
-                </a>
+    </div>   
+    <div class="skills">
+        <div class="container">
+            <div class="skills__items">
+                <div class="row row--skills">
+                    <div class="col">
+                        <div class="skills__item">
+                            <div class="skills__icon">
+                                <a href="http://" class="logo__link"><img src="./images/logo footer.png" alt=""></a> 
+                            </div>
+                            <div class="skills__text">
+                                <h6>Ganesh Krishnan R</h6>
+                                <p><img src="./images/location.png" alt="">Kannur, Kerala, India</p>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-behance"></i>
+                                <i class="fab fa-vk"></i>
+                                <i class="fab fa-instagram"></i>
+                                <p>I a am front end UI designer and developer with a 
+                                strong eye for creative, modern and trendy designs. 
+                                I am an internet bug who try to keep up with the 
+                                latest trends and technologies. I love photography 
+                                and have been doing photography professionally and 
+                                as a hobby for past couple of years. Hence my graphic 
+                                designing, image editing and manipulation skills have 
+                                been growing with me during these years...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills__item">
+                            <div class="skills__text">
+                                <h6>My Skills</h6>
+                            </div>
+                            <div class="progress-bar black stripes">
+                                <span style="width: 90%">Ps</span>
+                            </div>
+                            <div class="progress-bar orange stripes">
+                                <span style="width: 80%">Ai</span>
+                            </div>
+                            <div class="progress-bar black stripes">
+                                <span style="width: 70%">Cdr</span>
+                            </div>
+                            <div class="progress-bar black stripes">
+                                <span style="width: 40%">Fl</span>
+                            </div>      
+                            <div class="progress-bar black stripes">
+                                <span style="width: 80%">Dw</span>
+                            </div>
+                            <div class="progress-bar black stripes">
+                                <span style="width: 10%">Pr</span>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
             </div>
-            <div class="column">
-            <h6>Ganesh Krishnan R</h6>
-            <img src="./images/location.png" alt="">
-            <p>Kannur, Kerala, India</p>
-
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <div class="row">
+                    <div class="col">
+                        <nav class="menu">
+                            <ul class="menu_list">           
+                                <li class="menu_item"><a href="http://" class="menu_link menu_link--active">portfolio</a></li>
+                                <li class="menu_item"><a href="http://" class="menu_link">about me</a></li>
+                                <li class="menu_item"><a href="http://" class="menu_link">resume</a></li>
+                                <li class="menu_item"><a href="http://" class="menu_link">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col">
+                        <div class="rights">
+                            <p>all rights reserved &#169 ganeshkrishnanr</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>    
+        </div>
+    </div>
 </body>
 </html>
